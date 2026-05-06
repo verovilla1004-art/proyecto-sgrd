@@ -42,5 +42,4 @@ if (isset($_GET['m'])) {
 // 4. Carga de datos para la vista
 $enntrenador = $objEntrenador->listarEntrenador();
 
-// 5. Llamada a la vista
 require_once 'vista/entrenador.php';
