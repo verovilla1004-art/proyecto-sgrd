@@ -8,7 +8,7 @@ if (empty($_SESSION['id'])) {
 }
 
 $objEntrenador = new entrenador();
-$mensaje = ""; // Variable para las alertas de SweetAlert2
+$mensaje = ""; // Variable para las alertas
 
 if (isset($_GET['eliminar'])) {
     $objEntrenador->eliminarEntrenador($_GET['eliminar']);
