@@ -16,6 +16,7 @@ if (isset($_GET['eliminar'])) {
     exit;
 }
 
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     if (!empty($_POST['id_entrenador']) && !empty($_POST['cedula'])) {

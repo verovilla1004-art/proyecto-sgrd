@@ -26,7 +26,7 @@
 
     <main class="flex-1 p-8 overflow-y-auto">
         <header class="flex justify-between items-center mb-20">
-            <h1 class="text-2xl font-bold text-white">Gestión de </h1>
+            <h1 class="text-2xl font-bold text-white">Gestión de Entrenadores</h1>
             <div class="flex items-center gap-6">
 
                 <!-- Botón Notificaciones -->
@@ -65,11 +65,11 @@
             </div>
         </header>
         
-        <!-- SECCIÓN DE CONTROL (Búsqueda y Nuevo Atleta) -->
+        <!-- SECCIÓN DE CONTROL (Búsqueda y Nuevo Entrenador) -->
         <div class="flex flex-col md:flex-row justify-between items-center mb-4 gap-4">
             <div class="flex items-center gap-2 text-sm text-indigo-400">
                 <i class="fas fa-swimmer"></i>
-                <span class="font-medium tracking-wide uppercase text-xs">Módulo de Control de Nadadores</span>
+                <span class="font-medium tracking-wide uppercase text-xs">Módulo de Control de Entrenadores</span>
             </div>
 
             <div class="flex items-center gap-3 w-full md:w-auto">
